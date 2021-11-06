@@ -1,7 +1,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    /*border: red 2px solid;*/
+   /* border: red 2px solid; */
 }
 
 /* HERO */
@@ -38,12 +38,50 @@
 /* WELCOME */
 
 .welcome {
-    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
     background-color: #1f2937;
+    padding: 7em 20em 0em 20em;
+}
+
+.left{
+    width: 500px;
 }
 
 .left h2 {
-    font-size: 48px;
+    font-size: 58px;
     color: #F9FAF8;
-    font-weight: bolder;
+}
+
+.left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0.4em 1.5em 0.4em 1.5em;
+    margin: 1em 0em 0em 0em;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+}
+
+.right img {
+    width: 500px;
+    height: 250px;
+}
+
+/* MAIN */
+
+.main {
+    margin: 45px;
+}
+
+.main h1 {
+    font-size: 36px;
+    text-align: center;
 }
