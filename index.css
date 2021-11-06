@@ -1,0 +1,49 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    /*border: red 2px solid;*/
+}
+
+/* HERO */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 1em 20em 1em 20em;
+}
+
+.hero ul {
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    gap: 2.5em;
+}
+
+.hero a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.navbar {
+    padding: 0.5em;
+    font-size: 18px;
+}
+
+/* WELCOME */
+
+.welcome {
+    height: 500px;
+    background-color: #1f2937;
+}
+
+.left h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
