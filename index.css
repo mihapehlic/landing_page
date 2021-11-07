@@ -11,7 +11,7 @@
     justify-content: space-between;
     background-color: #1f2937;
     color: #F9FAF8;
-    padding: 1em 40em 1em 40em;
+    padding: 1em 15em 1em 15em;
 }
 
 .hero ul {
@@ -42,7 +42,7 @@
     justify-content: space-between;
     height: 350px;
     background-color: #1f2937;
-    padding: 7em 40em 0em 40em;
+    padding: 7em 15em 0em 15em;
 }
 
 .left{
@@ -91,7 +91,7 @@ button {
     margin: 50px;
     display: flex;
     justify-content: center;
-    gap: 2em;
+    gap: 4em;
 }
 
 .slike p {
@@ -118,15 +118,15 @@ button {
 }
 
 .text {
-    padding: 3em 20em 0em 20em;
+    padding: 3em 10em 0em 10em;
     font-size: 36px;
     font-style: italic;
     text-align: center;
 }
 
 .author {
-    padding: 3em 40em 0em 25em;
-    text-align: right;
+    padding: 3em 15em 0em 15em;
+    text-align: center;
     font-weight: bolder;
     font-size: 29px;
 }
